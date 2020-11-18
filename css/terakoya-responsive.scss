@@ -1,0 +1,229 @@
+    @media (max-width: 670px) {
+
+        @mixin res-title {
+            .title {
+                margin-left: 5px;
+    
+                h2 {
+                     font-size:21px;
+                }
+    
+                h3 {
+                    font-size: 15px;
+                }
+            }
+        }
+    
+        @mixin res-box {
+            width: 95%;
+            margin: 50px auto 0;
+        }
+    
+        @mixin res-text {
+            p {
+            font-size: 12px;
+            line-height: 180%;
+            }
+        }
+    
+        @mixin res-table {
+            width: 100%;
+    
+            th {
+                width: 25%;
+                font-size: 12px;
+            }
+    
+            td {
+                width: 50%;
+                font-size: 12px;
+            }
+    
+        }
+    
+      body {
+          width: 100%;
+    
+    
+        header {
+            h1 {
+                font-size: 20px;
+            }
+        }
+    
+        .menu {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                height: 200px;
+                width: 100%;
+                }
+    
+                li {
+                    width: 48%;
+                    font-size: 10px;
+                }
+        }
+    
+        footer {
+    
+            p {
+                font-size: 12px;
+                width: 100%;
+                white-space: nowrap;
+            }
+        }
+
+        .video {
+            display: flex;
+        }
+    
+        .news {
+    
+            margin-top: 2px;
+    
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            a {
+                font-size: 12px;
+            }
+        }
+    
+        .introduce {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+        }
+    
+        .feature {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .feature-detail {
+                width: 90%;
+                height: auto;
+    
+                h5 {
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin: 0;
+                    font-size: 18px;
+                    padding: 10px 5px;
+                }
+    
+                .content {
+                    display: block;
+                    
+                    img {
+                        width: 90%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    
+        /*　講師紹介 */
+        .mentors {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .coach-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+    
+                .coach {
+                    width:90%;
+                    margin-top: 5px;
+                }
+            }
+        }
+    
+        /*カリキュラム*/
+    
+        .curriculum {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .sche {
+                margin-top: 20px;
+                width: 90%;
+                .stage {
+                    width: 90%;
+                    h3{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    
+        .lesson-life {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .time-table {
+                .step {
+                    h3 {
+                        width: 70%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    
+        /*　料金・教室 */
+        .class-infomation {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .location {
+                width: 90%;
+            }
+    
+            .fee {
+                table{
+                    @include res-table;
+                }
+    
+                h4 {
+                    font-size: 15px;
+                }
+            }
+                
+        }
+    
+        /* 入会案内 */
+        .about-free-lesson {
+            @include res-title;
+            @include res-text;
+            @include res-box;
+    
+            .flow {
+    
+                .point {
+    
+                    h3 {
+                        width: 100%;
+                    }
+    
+                }
+            }
+    
+            .trial-detail {
+                table {
+                    @include res-table;
+                }
+            }
+    
+        }
+    
+    
+        } /* body */
+    } /* @media用*/

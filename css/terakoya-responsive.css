@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@media (max-width: 670px) {
+  body {
+    width: 100%;
+    /*　講師紹介 */
+    /*カリキュラム*/
+    /*　料金・教室 */
+    /* 入会案内 */
+  }
+  body header h1 {
+    font-size: 20px;
+  }
+  body .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
+  }
+  body .menu li {
+    width: 48%;
+    font-size: 10px;
+  }
+  body footer p {
+    font-size: 12px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  body .video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .news {
+    margin-top: 2px;
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .news .title {
+    margin-left: 5px;
+  }
+  body .news .title h2 {
+    font-size: 21px;
+  }
+  body .news .title h3 {
+    font-size: 15px;
+  }
+  body .news p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .news a {
+    font-size: 12px;
+  }
+  body .introduce {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .introduce .title {
+    margin-left: 5px;
+  }
+  body .introduce .title h2 {
+    font-size: 21px;
+  }
+  body .introduce .title h3 {
+    font-size: 15px;
+  }
+  body .introduce p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .feature {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .feature .title {
+    margin-left: 5px;
+  }
+  body .feature .title h2 {
+    font-size: 21px;
+  }
+  body .feature .title h3 {
+    font-size: 15px;
+  }
+  body .feature p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .feature .feature-detail {
+    width: 90%;
+    height: auto;
+  }
+  body .feature .feature-detail h5 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 5px;
+  }
+  body .feature .feature-detail .content {
+    display: block;
+  }
+  body .feature .feature-detail .content img {
+    width: 90%;
+    height: auto;
+  }
+  body .mentors {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .mentors .title {
+    margin-left: 5px;
+  }
+  body .mentors .title h2 {
+    font-size: 21px;
+  }
+  body .mentors .title h3 {
+    font-size: 15px;
+  }
+  body .mentors p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .mentors .coach-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mentors .coach-container .coach {
+    width: 90%;
+    margin-top: 5px;
+  }
+  body .curriculum {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .curriculum .title {
+    margin-left: 5px;
+  }
+  body .curriculum .title h2 {
+    font-size: 21px;
+  }
+  body .curriculum .title h3 {
+    font-size: 15px;
+  }
+  body .curriculum p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .curriculum .sche {
+    margin-top: 20px;
+    width: 90%;
+  }
+  body .curriculum .sche .stage {
+    width: 90%;
+  }
+  body .curriculum .sche .stage h3 {
+    width: 50%;
+  }
+  body .lesson-life {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .lesson-life .title {
+    margin-left: 5px;
+  }
+  body .lesson-life .title h2 {
+    font-size: 21px;
+  }
+  body .lesson-life .title h3 {
+    font-size: 15px;
+  }
+  body .lesson-life p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .lesson-life .time-table .step h3 {
+    width: 70%;
+    font-size: 16px;
+  }
+  body .class-infomation {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .class-infomation .title {
+    margin-left: 5px;
+  }
+  body .class-infomation .title h2 {
+    font-size: 21px;
+  }
+  body .class-infomation .title h3 {
+    font-size: 15px;
+  }
+  body .class-infomation p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .class-infomation .location {
+    width: 90%;
+  }
+  body .class-infomation .fee table {
+    width: 100%;
+  }
+  body .class-infomation .fee table th {
+    width: 25%;
+    font-size: 12px;
+  }
+  body .class-infomation .fee table td {
+    width: 50%;
+    font-size: 12px;
+  }
+  body .class-infomation .fee h4 {
+    font-size: 15px;
+  }
+  body .about-free-lesson {
+    width: 95%;
+    margin: 50px auto 0;
+  }
+  body .about-free-lesson .title {
+    margin-left: 5px;
+  }
+  body .about-free-lesson .title h2 {
+    font-size: 21px;
+  }
+  body .about-free-lesson .title h3 {
+    font-size: 15px;
+  }
+  body .about-free-lesson p {
+    font-size: 12px;
+    line-height: 180%;
+  }
+  body .about-free-lesson .flow .point h3 {
+    width: 100%;
+  }
+  body .about-free-lesson .trial-detail table {
+    width: 100%;
+  }
+  body .about-free-lesson .trial-detail table th {
+    width: 25%;
+    font-size: 12px;
+  }
+  body .about-free-lesson .trial-detail table td {
+    width: 50%;
+    font-size: 12px;
+  }
+  /* body */
+}
+
+/* @media用*/
+/*# sourceMappingURL=terakoya-responsive.css.map */
